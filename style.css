@@ -1,0 +1,44 @@
+img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.selection{
+    display: flex;
+    justify-content: center;
+    align-content:  space-around;
+}
+header{
+    background-color: black;
+    padding: 25px;
+}
+body{
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    color: blanchedalmond;
+}
+div{
+    font-size: 20pt;
+}
+
+.base_selected{
+    border-radius: 100%;
+    border-style: solid;
+    border-color:green;
+    border-width: 10px;
+    margin: 10px;
+}
+.base_unselected{
+    border-radius: 100%;
+    border-style: solid;
+    border-color:blanchedalmond;
+    border-width: 10px;
+    margin: 10px;
+}
+.base_AIselected{
+    border-radius: 100%;
+    border-style: solid;
+    border-color:red;
+    border-width: 10px;
+    margin: 10px;
+}
